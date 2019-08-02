@@ -1,29 +1,41 @@
 {
-    "name": "agencelimitless/doctrine2-spatial",
-    "type": "library",
-    "description": "Doctrine2 multi-platform support for spatial types and functions",
-    "keywords": ["orm", "dbal", "database", "postgresql", "mysql", "opengis", "postgis", "gis", "spatial", "geometry", "geography"],
-    "authors": [
-        {
-            "name": "Derek Lambert",
-            "email": "dlambert@dereklambert.com"
-        }
-    ],
-    "license": "MIT",
-    "require": {
-        "doctrine/orm": ">=2.3",
-        "agencelimitless/geo-parser": "~2.0",
-        "agencelimitless/wkt-parser": "~2.0",
-        "agencelimitless/wkb-parser": "~2.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "<5.0",
-        "phpunit/phpcov": "*",
-        "satooshi/php-coveralls": "~1.0"
-    },
-    "autoload": {
-        "psr-0": {
-            "CrEOF\\Spatial": "lib/"
-        }
+  "name": "agencelimitless/doctrine2-spatial",
+  "type": "library",
+  "description": "Doctrine2 multi-platform support for spatial types and functions",
+  "keywords": [
+    "orm",
+    "dbal",
+    "database",
+    "postgresql",
+    "mysql",
+    "opengis",
+    "postgis",
+    "gis",
+    "spatial",
+    "geometry",
+    "geography"
+  ],
+  "authors": [
+    {
+      "name": "Derek Lambert",
+      "email": "dlambert@dereklambert.com"
     }
+  ],
+  "license": "MIT",
+  "require": {
+    "doctrine/orm": ">=2.3",
+    "agencelimitless/geo-parser": "~3.0",
+    "agencelimitless/wkt-parser": "~3.0",
+    "agencelimitless/wkb-parser": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "<5.0",
+    "phpunit/phpcov": "*",
+    "satooshi/php-coveralls": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "CrEOF\\Spatial": "lib/"
+    }
+  }
 }
